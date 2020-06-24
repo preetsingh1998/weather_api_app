@@ -20,8 +20,7 @@ document.getElementById('w-change-btn').addEventListener('click',(e)=>{
 
 
     //keep it in local storage
-    storage.setLocationData(city);
-
+  
     //get weather
     getWeather();
 
